@@ -1,0 +1,41 @@
+
+.sass-button {
+    padding: 30px 60px;
+    color: $primary-color;
+}
+
+
+ul {
+    li {
+        cursor: pointer;
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+        }
+
+        .link {
+            color: red;
+
+         
+        }
+        &:hover {
+            font-size: 20px;
+        }
+    }
+
+    // li:hover {}
+}
+
+// .sass {
+    // color: $primary-color;
+    // font-size: $base * 10;
+
+    // span {
+    //     color: red;
+
+    //     a {
+    //         font-size: 20px;
+    //     }
+    // }
+//   }

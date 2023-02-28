@@ -1,0 +1,23 @@
+.group {
+    p {
+        @include test;
+        span {
+            @extend %tst-inheritance;
+        }
+    }
+}
+
+.group-2 {
+    p {
+        @include test($color: red, $borderColor: gray, $font-size: 20px);
+        font-weight: 500;
+
+        span {
+            @extend %tst-inheritance;
+            font-size: 25px;
+
+            
+        }
+    }
+}
+

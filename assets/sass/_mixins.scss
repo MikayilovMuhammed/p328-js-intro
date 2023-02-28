@@ -1,0 +1,5 @@
+@mixin test($color: $primary-color, $borderColor: red, $font-size: 14px) {
+    color: $color;
+    border: 1px solid $borderColor;
+    font-size: $font-size;
+}

@@ -1,0 +1,43 @@
+.group-2 p span, .group p span {
+  color: red;
+  background-color: black;
+  font-size: 20px;
+}
+
+button {
+  color: blue;
+}
+
+.sass-button {
+  padding: 30px 60px;
+  color: blue;
+}
+
+ul li {
+  cursor: pointer;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li .link {
+  color: red;
+}
+ul li:hover {
+  font-size: 20px;
+}
+
+.group p {
+  color: blue;
+  border: 1px solid red;
+  font-size: 14px;
+}
+.group-2 p {
+  color: red;
+  border: 1px solid gray;
+  font-size: 20px;
+  font-weight: 500;
+}
+.group-2 p span {
+  font-size: 25px;
+}
